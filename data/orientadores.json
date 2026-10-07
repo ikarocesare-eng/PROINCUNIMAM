@@ -1,0 +1,21 @@
+{
+  "titulo": "Orientadores",
+  "legenda": "",
+  "lista": [
+    {
+      "nome": "Profa. Dra. Mariana Costa",
+      "area": "Psicologia",
+      "lattes": ""
+    },
+    {
+      "nome": "Prof. Dr. Rafael Almeida",
+      "area": "Saúde coletiva",
+      "lattes": ""
+    },
+    {
+      "nome": "Profa. Dra. Beatriz Santos",
+      "area": "Meio ambiente",
+      "lattes": ""
+    }
+  ]
+}

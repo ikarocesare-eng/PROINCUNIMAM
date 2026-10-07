@@ -1,0 +1,21 @@
+{
+  "titulo": "Resultados e editais",
+  "mensagem_vazia": "Os documentos serão disponibilizados após a publicação oficial.",
+  "documentos": [
+    {
+      "titulo": "Edital de seleção PROINC — exemplo",
+      "arquivo": "",
+      "descricao": "PDF ainda não cadastrado"
+    },
+    {
+      "titulo": "Inscrições homologadas — exemplo",
+      "arquivo": "",
+      "descricao": "PDF ainda não cadastrado"
+    },
+    {
+      "titulo": "Resultado final — exemplo",
+      "arquivo": "",
+      "descricao": "PDF ainda não cadastrado"
+    }
+  ]
+}

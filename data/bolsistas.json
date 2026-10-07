@@ -1,0 +1,18 @@
+{
+  "titulo": "Estagiários Bolsistas",
+  "legenda": "",
+  "lista": [
+    {
+      "nome": "Ana Clara Ferreira",
+      "curso": "Psicologia"
+    },
+    {
+      "nome": "Lucas Pereira Lima",
+      "curso": "Enfermagem"
+    },
+    {
+      "nome": "Júlia Mendes Rocha",
+      "curso": "Administração"
+    }
+  ]
+}

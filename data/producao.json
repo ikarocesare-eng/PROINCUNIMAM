@@ -1,0 +1,20 @@
+{
+  "titulo": "Produção Científica",
+  "legenda": "",
+  "lista": [
+    {
+      "titulo": "Adaptação acadêmica e redes de apoio na graduação",
+      "referencia": "FERREIRA, A. C.; COSTA, M. · Revista Exemplo de Pesquisa · 2026.",
+      "tipo": "ARTIGO · REFERÊNCIA FICTÍCIA",
+      "link": "",
+      "botao": "Consultar publicação"
+    },
+    {
+      "titulo": "Educação ambiental e participação estudantil no campus",
+      "referencia": "ROCHA, J. M.; SANTOS, B. · Anais do Encontro Científico Exemplo · 2026.",
+      "tipo": "RESUMO · REFERÊNCIA FICTÍCIA",
+      "link": "",
+      "botao": "Consultar resumo"
+    }
+  ]
+}

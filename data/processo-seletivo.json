@@ -1,0 +1,29 @@
+{
+  "titulo": "Processo Seletivo",
+  "legenda": "",
+  "descricao": "Seleção de estudantes para as modalidades bolsista e voluntária. As datas abaixo são exemplos e não representam inscrições reais.",
+  "cronograma": [
+    {
+      "etapa": "Inscrições",
+      "periodo": "18/09 a 09/10/2026"
+    },
+    {
+      "etapa": "Análise das candidaturas",
+      "periodo": "13 a 16/10/2026"
+    },
+    {
+      "etapa": "Resultado preliminar",
+      "periodo": "19/10/2026"
+    },
+    {
+      "etapa": "Interposição de recursos",
+      "periodo": "20 e 21/10/2026"
+    },
+    {
+      "etapa": "Resultado final",
+      "periodo": "23/10/2026"
+    }
+  ],
+  "editais": [],
+  "titulo_editais": "Editais e documentos"
+}

@@ -1,0 +1,146 @@
+{
+  "logo_principal": "PROINC",
+  "logo_secundaria": "UNIMAM",
+  "slogan_titulo": "Programa de Iniciação Científica",
+  "slogan_subtitulo": "Pesquisa que começa na graduação.",
+  "logo_secundaria_legenda": "INICIAÇÃO CIENTÍFICA",
+  "faixa_esquerda": "UNIMAM · ENSINO, PESQUISA E EXTENSÃO",
+  "faixa_direita": "PORTAL DE INICIAÇÃO CIENTÍFICA",
+  "titulo_pagina": "PROINC | Iniciação Científica · UNIMAM",
+  "descricao_pagina": "Programa de Iniciação Científica da UNIMAM: objetivos, equipe, projetos e oportunidades.",
+  "cor_principal": "#0056b3",
+  "menu_superior": [
+    {
+      "texto": "Início",
+      "link": "#inicio"
+    },
+    {
+      "texto": "Editais",
+      "link": "#editais"
+    },
+    {
+      "texto": "Formulários",
+      "link": "#formularios"
+    },
+    {
+      "texto": "Processo Seletivo",
+      "link": "#processo-seletivo"
+    },
+    {
+      "texto": "Contato",
+      "link": "#contato"
+    }
+  ],
+  "redes_sociais": [
+    {
+      "nome": "Instagram",
+      "icone": "IG",
+      "url": ""
+    },
+    {
+      "nome": "YouTube",
+      "icone": "YT",
+      "url": ""
+    }
+  ],
+  "whatsapp_link": "",
+  "whatsapp_texto": "Fale conosco pelo WhatsApp",
+  "whatsapp_rotulo": "WhatsApp",
+  "mostrar_whatsapp": false,
+  "aviso_demonstracao": "Modelo demonstrativo · Nomes, datas, notícias e projetos fictícios, para substituição.",
+  "rodape_titulo": "PROINC · UNIMAM",
+  "rodape_texto": "Programa de Iniciação Científica",
+  "rodape_nota": "Modelo acadêmico demonstrativo\nConteúdo sujeito à revisão institucional.",
+  "noticias_titulo": "Últimas Notícias e Projetos",
+  "noticias_legenda": "ACOMPANHE O PROGRAMA",
+  "noticias_vazio": "Nenhuma notícia publicada.",
+  "carrossel_intervalo": 7,
+  "carrossel_automatico": true,
+  "texto_pausar": "Pausar",
+  "texto_reproduzir": "Reproduzir",
+  "texto_lattes": "Currículo Lattes",
+  "texto_lattes_mini": "Lattes",
+  "texto_nao_informado": "Não informado",
+  "texto_lista_vazia": "Nenhum item cadastrado.",
+  "texto_sem_editais": "Nenhum edital publicado.",
+  "texto_professor": "PROFESSOR(A)",
+  "texto_area": "ÁREA",
+  "texto_curriculo": "CURRÍCULO",
+  "texto_orientador": "Orientador(a)",
+  "texto_etapa": "ETAPA",
+  "texto_periodo": "PERÍODO",
+  "texto_inicio": "Início",
+  "texto_pular": "Pular para o conteúdo",
+  "texto_link_indisponivel": "Link ainda não cadastrado.",
+  "logo_imagem": "/assets/img/proinc-logo.png",
+  "logo_alt": "PROINC — Programa de Iniciação Científica",
+  "logo_largura": 100,
+  "logo_altura": 100,
+  "logo_secundaria_imagem": "/assets/img/unimam-logo.png",
+  "logo_secundaria_alt": "UNIMAM — Centro Universitário Maria Milza",
+  "logo_secundaria_largura": 172,
+  "logo_secundaria_altura": 58,
+  "cor_escura": "#082d66",
+  "cor_fundo": "#ffffff",
+  "cor_texto": "#24364b",
+  "fonte": "Arial",
+  "largura_site": 1240,
+  "largura_menu": 280,
+  "exibir_menu_lateral": true,
+  "altura_banner": 310,
+  "menu_admin": "Área administrativa",
+  "secoes": [
+    {
+      "secao": "processo-seletivo",
+      "visivel": true
+    },
+    {
+      "secao": "objetivos",
+      "visivel": true
+    },
+    {
+      "secao": "coordenacao",
+      "visivel": true
+    },
+    {
+      "secao": "orientadores",
+      "visivel": true
+    },
+    {
+      "secao": "bolsistas",
+      "visivel": true
+    },
+    {
+      "secao": "voluntarios",
+      "visivel": true
+    },
+    {
+      "secao": "projetos",
+      "visivel": true
+    },
+    {
+      "secao": "producao",
+      "visivel": true
+    },
+    {
+      "secao": "formularios",
+      "visivel": true
+    },
+    {
+      "secao": "contato",
+      "visivel": true
+    },
+    {
+      "secao": "noticias",
+      "visivel": true
+    }
+  ],
+  "titulo_conteudo": "Programa de Iniciação Científica",
+  "chamada_titulo": "Faça parte da pesquisa.",
+  "chamada_texto": "Conheça as oportunidades de iniciação científica e desenvolva seu projeto com acompanhamento de professores da UNIMAM.",
+  "chamada_botao": "CONHEÇA A SELEÇÃO",
+  "chamada_link": "#processo-seletivo",
+  "exibir_chamada": true,
+  "exibir_acordeoes": true,
+  "abrir_primeira_secao": false
+}

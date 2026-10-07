@@ -1,0 +1,14 @@
+{
+  "title": "Boas perguntas.\nNovos caminhos.",
+  "description": "Conheça os projetos de exemplo e as áreas de pesquisa do programa.",
+  "button_text": "Explore os projetos",
+  "button_link": "#projetos",
+  "etiqueta": "PESQUISA NA GRADUAÇÃO",
+  "ordem": 2,
+  "publicado": true,
+  "imagem": "",
+  "imagem_alt": "",
+  "modo": "texto",
+  "posicao_imagem": "center",
+  "sobreposicao": 60
+}

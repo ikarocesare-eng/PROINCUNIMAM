@@ -1,0 +1,14 @@
+{
+  "title": "Da investigação\nà publicação.",
+  "description": "Acompanhe os artigos e resumos demonstrativos da comunidade acadêmica.",
+  "button_text": "Veja a produção científica",
+  "button_link": "#producao",
+  "etiqueta": "CONHECIMENTO COMPARTILHADO",
+  "ordem": 3,
+  "publicado": true,
+  "imagem": "",
+  "imagem_alt": "",
+  "modo": "texto",
+  "posicao_imagem": "center",
+  "sobreposicao": 60
+}

@@ -1,0 +1,803 @@
+# GITHUB_REPOSITORY no Netlify substitui o repo durante o build.
+backend:
+  name: github
+  repo: SEU_USUARIO/SEU_REPOSITORIO
+  branch: main
+locale: pt
+media_folder: assets/img
+public_folder: assets/img
+collections:
+- name: identidade
+  label: 🎨 Configurações Globais e Identidade
+  delete: false
+  editor:
+    preview: false
+  files:
+  - name: globais
+    label: Logo, slogan, menus, rodapé e rótulos
+    file: data/globais.json
+    fields:
+    - name: logo_imagem
+      label: Logo PROINC — enviar imagem
+      widget: image
+      required: false
+      hint: PNG, JPEG, WebP ou SVG. Mantém a proporção; não corta a imagem.
+    - name: logo_alt
+      label: Descrição da logo para acessibilidade
+      widget: string
+    - name: logo_largura
+      label: Largura da logo PROINC (px)
+      widget: number
+      value_type: int
+      min: 60
+      max: 280
+    - name: logo_altura
+      label: Altura da logo PROINC (px)
+      widget: number
+      value_type: int
+      min: 48
+      max: 200
+    - name: logo_secundaria_imagem
+      label: Logo da instituição — opcional
+      widget: image
+      required: false
+    - name: logo_secundaria_alt
+      label: Descrição da logo da instituição
+      widget: string
+    - name: logo_secundaria_largura
+      label: Largura da logo da instituição (px)
+      widget: number
+      value_type: int
+      min: 60
+      max: 250
+    - name: logo_secundaria_altura
+      label: Altura da logo da instituição (px)
+      widget: number
+      value_type: int
+      min: 40
+      max: 160
+    - name: cor_escura
+      label: Azul-marinho / fundo dos banners
+      widget: color
+    - name: cor_fundo
+      label: Cor de fundo
+      widget: color
+    - name: cor_texto
+      label: Cor do texto
+      widget: color
+    - name: fonte
+      label: Fonte
+      widget: select
+      options:
+      - Arial
+      - Georgia
+      - Verdana
+    - name: largura_site
+      label: Largura máxima do site (px)
+      widget: number
+      value_type: int
+      min: 960
+      max: 1440
+    - name: largura_menu
+      label: Largura da coluna de resultados (px)
+      widget: number
+      value_type: int
+      min: 200
+      max: 300
+    - name: exibir_menu_lateral
+      label: Exibir coluna de resultados à direita
+      widget: boolean
+      default: true
+    - name: altura_banner
+      label: Altura mínima do banner (px)
+      widget: number
+      value_type: int
+      min: 260
+      max: 600
+    - name: menu_admin
+      label: Texto do acesso ao painel
+      widget: string
+    - name: secoes
+      label: Ordem e visibilidade das seções
+      widget: list
+      summary: '{{fields.secao}}'
+      hint: Arraste para reordenar. Desative Visível para ocultar; links locais para seções ocultas também são omitidos.
+      fields:
+      - name: secao
+        label: Seção
+        widget: select
+        options:
+        - label: Noticias
+          value: noticias
+        - label: Objetivos
+          value: objetivos
+        - label: Coordenacao
+          value: coordenacao
+        - label: Orientadores
+          value: orientadores
+        - label: Bolsistas
+          value: bolsistas
+        - label: Voluntarios
+          value: voluntarios
+        - label: Projetos
+          value: projetos
+        - label: Producao
+          value: producao
+        - label: Processo-Seletivo
+          value: processo-seletivo
+        - label: Formularios
+          value: formularios
+        - label: Contato
+          value: contato
+      - name: visivel
+        label: Visível
+        widget: boolean
+        default: true
+    - label: Texto da logo principal
+      name: logo_principal
+      widget: string
+    - label: Texto secundário da logo
+      name: logo_secundaria
+      widget: string
+    - label: Título do slogan
+      name: slogan_titulo
+      widget: string
+    - label: Subtítulo do slogan
+      name: slogan_subtitulo
+      widget: string
+    - label: Logo secundaria legenda
+      name: logo_secundaria_legenda
+      widget: string
+    - label: Faixa esquerda
+      name: faixa_esquerda
+      widget: string
+    - label: Faixa direita
+      name: faixa_direita
+      widget: string
+    - label: Titulo pagina
+      name: titulo_pagina
+      widget: string
+    - label: Descricao pagina
+      name: descricao_pagina
+      widget: string
+    - label: Cor principal
+      name: cor_principal
+      widget: color
+      allowInput: true
+    - label: Menu superior
+      name: menu_superior
+      widget: list
+      required: false
+      fields:
+      - label: Texto do link
+        name: texto
+        widget: string
+      - label: Link
+        name: link
+        widget: string
+        required: false
+    - label: Redes sociais do cabeçalho
+      name: redes_sociais
+      widget: list
+      required: false
+      summary: '{{fields.nome}}'
+      fields:
+      - label: Nome da rede
+        name: nome
+        widget: string
+      - label: Abreviação exibida no botão
+        name: icone
+        widget: string
+        required: false
+        hint: 'Ex.: IG, YT, LI. Use no máximo três caracteres.'
+      - label: Link da rede
+        name: url
+        widget: string
+        required: false
+    - label: WhatsApp flutuante
+      name: mostrar_whatsapp
+      widget: boolean
+      default: false
+      required: false
+    - label: Link do WhatsApp
+      name: whatsapp_link
+      widget: string
+      required: false
+      hint: 'Use https://wa.me/5511999999999. O botão só aparece com a opção acima ativada.'
+    - label: Texto acessível do WhatsApp
+      name: whatsapp_texto
+      widget: string
+      required: false
+    - label: Rótulo visível do WhatsApp
+      name: whatsapp_rotulo
+      widget: string
+      required: false
+    - label: Aviso demonstracao
+      name: aviso_demonstracao
+      widget: text
+      required: false
+    - label: Rodape titulo
+      name: rodape_titulo
+      widget: string
+    - label: Rodape texto
+      name: rodape_texto
+      widget: string
+    - label: Rodape nota
+      name: rodape_nota
+      widget: text
+    - label: Noticias titulo
+      name: noticias_titulo
+      widget: string
+    - label: Noticias legenda
+      name: noticias_legenda
+      widget: string
+    - label: Noticias vazio
+      name: noticias_vazio
+      widget: string
+    - label: Carrossel intervalo
+      name: carrossel_intervalo
+      widget: number
+      value_type: int
+      min: 1
+      default: 7
+    - label: Carrossel automatico
+      name: carrossel_automatico
+      widget: boolean
+      default: true
+      required: false
+    - label: Texto pausar
+      name: texto_pausar
+      widget: string
+    - label: Texto reproduzir
+      name: texto_reproduzir
+      widget: string
+    - label: Texto lattes
+      name: texto_lattes
+      widget: string
+    - label: Texto lattes mini
+      name: texto_lattes_mini
+      widget: string
+    - label: Texto nao informado
+      name: texto_nao_informado
+      widget: string
+    - label: Texto lista vazia
+      name: texto_lista_vazia
+      widget: string
+    - label: Texto sem editais
+      name: texto_sem_editais
+      widget: string
+    - label: Texto professor
+      name: texto_professor
+      widget: string
+    - label: Texto area
+      name: texto_area
+      widget: string
+    - label: Texto curriculo
+      name: texto_curriculo
+      widget: string
+    - label: Texto orientador
+      name: texto_orientador
+      widget: string
+    - label: Texto etapa
+      name: texto_etapa
+      widget: string
+    - label: Texto periodo
+      name: texto_periodo
+      widget: string
+    - label: Texto inicio
+      name: texto_inicio
+      widget: string
+    - label: Texto pular
+      name: texto_pular
+      widget: string
+    - label: Texto link indisponivel
+      name: texto_link_indisponivel
+      widget: string
+    - label: Título da página abaixo da faixa de navegação
+      name: titulo_conteudo
+      widget: string
+    - label: Chamada abaixo do banner — título
+      name: chamada_titulo
+      widget: string
+    - label: Chamada abaixo do banner — texto
+      name: chamada_texto
+      widget: text
+    - label: Chamada abaixo do banner — botão
+      name: chamada_botao
+      widget: string
+    - label: Chamada abaixo do banner — link
+      name: chamada_link
+      widget: string
+    - label: Exibir chamada abaixo do banner
+      name: exibir_chamada
+      widget: boolean
+      required: false
+    - label: Usar seções expansíveis
+      name: exibir_acordeoes
+      widget: boolean
+      required: false
+    - label: Iniciar com a primeira seção aberta
+      name: abrir_primeira_secao
+      widget: boolean
+      required: false
+- name: carrossel
+  label: 🎡 Banner Rotativo (Carrossel)
+  folder: content/carrossel
+  create: true
+  extension: json
+  format: json
+  slug: '{{slug}}'
+  summary: '{{ordem}} · {{title}}'
+  editor:
+    preview: false
+  fields:
+  - label: Título
+    name: title
+    widget: text
+  - label: Descrição
+    name: description
+    widget: text
+  - label: Texto do botão
+    name: button_text
+    widget: string
+    required: false
+  - label: Link do botão
+    name: button_link
+    widget: string
+    required: false
+  - label: Etiqueta
+    name: etiqueta
+    widget: string
+  - label: Ordem de exibição
+    name: ordem
+    widget: number
+    value_type: int
+    min: 1
+    default: 1
+  - label: Publicado
+    name: publicado
+    widget: boolean
+    default: true
+    required: false
+  - name: imagem
+    label: Imagem do banner
+    widget: image
+    required: false
+    hint: 'Sugestão: 1600 × 600 px para fundo; PNG/JPEG/WebP. Não envie texto minúsculo na imagem.'
+  - name: imagem_alt
+    label: Descrição da imagem
+    widget: string
+    required: false
+  - name: modo
+    label: Apresentação
+    widget: select
+    options:
+    - label: Só texto
+      value: texto
+    - label: Imagem ao lado do texto
+      value: lado
+    - label: Imagem de fundo + texto
+      value: fundo
+    - label: Só imagem
+      value: imagem
+  - name: posicao_imagem
+    label: Enquadramento
+    widget: select
+    options:
+    - center
+    - top
+    - bottom
+    - left
+    - right
+  - name: sobreposicao
+    label: Escurecimento do fundo (%)
+    widget: number
+    value_type: int
+    min: 0
+    max: 90
+- name: programa
+  label: 📝 Conteúdo das Seções
+  delete: false
+  editor:
+    preview: false
+  files:
+  - name: objetivos
+    label: Objetivos
+    file: data/objetivos.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Texto dos objetivos
+      name: texto
+      widget: markdown
+      buttons:
+      - bold
+      - italic
+      - link
+      - bulleted-list
+      - numbered-list
+      - heading-two
+      - quote
+      editor_components: []
+      hint: 'Formatação suportada: parágrafos, negrito, itálico, links, listas simples, título de nível 2 e citações.
+        Não use HTML ou listas aninhadas.'
+  - name: coordenacao
+    label: Coordenação
+    file: data/coordenacao.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Nome
+      name: nome
+      widget: string
+    - label: Descrição do cargo
+      name: cargo
+      widget: string
+    - label: Link do Currículo Lattes
+      name: lattes
+      widget: string
+      required: false
+      pattern:
+      - ^https?://lattes\.cnpq\.br/[0-9]{16}/?$
+      - Use o link oficial do Lattes com 16 dígitos.
+    - name: foto
+      label: Foto da coordenação
+      widget: image
+      required: false
+    - name: foto_alt
+      label: Descrição da foto
+      widget: string
+      required: false
+  - name: orientadores
+    label: Orientadores
+    file: data/orientadores.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Lista de itens
+      name: lista
+      widget: list
+      required: false
+      fields:
+      - label: Nome
+        name: nome
+        widget: string
+      - label: Área
+        name: area
+        widget: string
+        required: false
+      - label: Link do Currículo Lattes
+        name: lattes
+        widget: string
+        required: false
+        pattern:
+        - ^https?://lattes\.cnpq\.br/[0-9]{16}/?$
+        - Use o link oficial do Lattes com 16 dígitos.
+  - name: bolsistas
+    label: Estagiários Bolsistas
+    file: data/bolsistas.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Lista de itens
+      name: lista
+      widget: list
+      required: false
+      fields:
+      - label: Nome
+        name: nome
+        widget: string
+      - label: Curso
+        name: curso
+        widget: string
+        required: false
+  - name: voluntarios
+    label: Estagiários Voluntários
+    file: data/voluntarios.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Lista de itens
+      name: lista
+      widget: list
+      required: false
+      fields:
+      - label: Nome
+        name: nome
+        widget: string
+      - label: Curso
+        name: curso
+        widget: string
+        required: false
+  - name: projetos
+    label: Projetos em Andamento
+    file: data/projetos.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Lista de itens
+      name: lista
+      widget: list
+      required: false
+      fields:
+      - label: Título
+        name: titulo
+        widget: string
+      - label: Orientador
+        name: orientador
+        widget: string
+      - label: Área
+        name: area
+        widget: string
+        required: false
+      - label: Descrição
+        name: descricao
+        widget: text
+      - label: Etiqueta
+        name: etiqueta
+        widget: string
+  - name: producao
+    label: Produção Científica
+    file: data/producao.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Lista de itens
+      name: lista
+      widget: list
+      required: false
+      fields:
+      - label: Título
+        name: titulo
+        widget: string
+      - label: Referencia
+        name: referencia
+        widget: string
+        required: false
+      - label: Tipo
+        name: tipo
+        widget: string
+      - label: Link
+        name: link
+        widget: string
+        required: false
+      - label: Botao
+        name: botao
+        widget: string
+        required: false
+  - name: formularios
+    label: Formulários
+    file: data/formularios.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Descrição
+      name: descricao
+      widget: text
+    - label: Lista de itens
+      name: lista
+      widget: list
+      required: false
+      fields:
+      - label: Título
+        name: titulo
+        widget: string
+      - label: Link
+        name: link
+        widget: string
+        required: false
+  - name: contato
+    label: Contato
+    file: data/contato.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Titulo contato
+      name: titulo_contato
+      widget: string
+    - label: Email
+      name: email
+      widget: string
+      required: false
+    - label: Telefone
+      name: telefone
+      widget: string
+      required: false
+    - label: Atendimento
+      name: atendimento
+      widget: string
+      required: false
+    - label: Rotulo email
+      name: rotulo_email
+      widget: string
+    - label: Rotulo telefone
+      name: rotulo_telefone
+      widget: string
+    - label: Rotulo atendimento
+      name: rotulo_atendimento
+      widget: string
+- name: noticias
+  label: 📰 Últimas Notícias e Projetos
+  folder: content/noticias
+  create: true
+  extension: json
+  format: json
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  editor:
+    preview: false
+  fields:
+  - label: Título
+    name: title
+    widget: text
+  - label: Data
+    name: date
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: DD/MM/YYYY
+    time_format: false
+  - label: Conteúdo / resumo
+    name: body
+    widget: markdown
+    buttons:
+    - bold
+    - italic
+    - link
+    - bulleted-list
+    - numbered-list
+    - heading-two
+    - quote
+    editor_components: []
+    hint: 'Formatação suportada: parágrafos, negrito, itálico, links, listas simples, título de nível 2 e citações.
+      Não use HTML ou listas aninhadas.'
+  - label: Categoria
+    name: categoria
+    widget: string
+  - label: Link
+    name: link
+    widget: string
+    required: false
+  - label: Publicado
+    name: publicado
+    widget: boolean
+    default: true
+    required: false
+  - name: imagem
+    label: Imagem da notícia
+    widget: image
+    required: false
+  - name: imagem_alt
+    label: Descrição da imagem
+    widget: string
+    required: false
+- name: processoseletivo
+  label: 📅 Processo Seletivo (Editais)
+  delete: false
+  editor:
+    preview: false
+  files:
+  - name: processo_seletivo
+    label: Cronograma e editais
+    file: data/processo-seletivo.json
+    fields:
+    - label: Título
+      name: titulo
+      widget: string
+    - label: Legenda
+      name: legenda
+      widget: string
+      required: false
+    - label: Descrição
+      name: descricao
+      widget: text
+    - label: Cronograma
+      name: cronograma
+      widget: list
+      required: false
+      fields:
+      - label: Etapa
+        name: etapa
+        widget: string
+      - label: Periodo
+        name: periodo
+        widget: string
+    - label: Editais e resultados
+      name: editais
+      widget: list
+      required: false
+      fields:
+      - label: Título
+        name: titulo
+        widget: string
+      - label: Arquivo PDF
+        name: arquivo
+        widget: file
+        choose_url: false
+        media_folder: assets/editais
+        public_folder: assets/editais
+        pattern:
+        - \.[pP][dD][fF]$
+        - Selecione um arquivo PDF.
+        media_library:
+          config:
+            max_file_size: 10485760
+    - label: Título da lista de editais
+      name: titulo_editais
+      widget: string
+  - name: resultados
+    label: Coluna lateral — resultados e editais
+    file: data/resultados.json
+    fields:
+    - label: Título da coluna
+      name: titulo
+      widget: string
+    - label: Mensagem quando não há documentos
+      name: mensagem_vazia
+      widget: text
+    - label: Documentos (arraste para ordenar)
+      name: documentos
+      widget: list
+      required: false
+      fields:
+      - label: Título
+        name: titulo
+        widget: string
+      - label: PDF
+        name: arquivo
+        widget: file
+        required: false
+        media_folder: assets/editais
+        public_folder: assets/editais
+        choose_url: false
+        pattern:
+        - \.[pP][dD][fF]$
+        - Selecione um PDF.
+      - label: Observação
+        name: descricao
+        widget: string
+        required: false
+logo_url: assets/img/proinc-logo.png

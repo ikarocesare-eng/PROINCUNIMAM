@@ -1,0 +1,20 @@
+{
+  "titulo": "Projetos em Andamento",
+  "legenda": "",
+  "lista": [
+    {
+      "titulo": "Bem-estar e adaptação à vida universitária",
+      "orientador": "Mariana Costa",
+      "area": "Psicologia e educação",
+      "descricao": "Investigação dos fatores associados à adaptação de estudantes ingressantes na graduação.",
+      "etiqueta": "PSICOLOGIA · PROJETO FICTÍCIO"
+    },
+    {
+      "titulo": "Práticas sustentáveis no ambiente acadêmico",
+      "orientador": "Beatriz Santos",
+      "area": "Sustentabilidade",
+      "descricao": "Mapeamento de hábitos e propostas para o uso consciente de recursos no campus.",
+      "etiqueta": "MEIO AMBIENTE · PROJETO FICTÍCIO"
+    }
+  ]
+}
