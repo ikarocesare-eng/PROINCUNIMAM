@@ -1,36 +1,28 @@
 {
-  "logo_principal": "PROINC",
-  "logo_secundaria": "UNIMAM",
-  "slogan_titulo": "Programa de Iniciação Científica",
-  "slogan_subtitulo": "Pesquisa que começa na graduação.",
-  "logo_secundaria_legenda": "INICIAÇÃO CIENTÍFICA",
+  "texto_lattes": "Currículo Lattes",
+  "texto_sem_editais": "Nenhum edital publicado.",
+  "exibir_menu_lateral": true,
+  "logo_secundaria_alt": "UNIMAM — Centro Universitário Maria Milza",
+  "texto_inicio": "Início",
+  "texto_link_indisponivel": "Link ainda não cadastrado.",
+  "carrossel_intervalo": 7,
+  "exibir_chamada": true,
+  "texto_nao_informado": "Não informado",
+  "chamada_botao": "CONHEÇA A SELEÇÃO",
+  "logo_secundaria_altura": 100,
+  "noticias_legenda": "ACOMPANHE O PROGRAMA",
   "faixa_esquerda": "UNIMAM · ENSINO, PESQUISA E EXTENSÃO",
-  "faixa_direita": "PORTAL DE INICIAÇÃO CIENTÍFICA",
-  "titulo_pagina": "PROINC | Iniciação Científica · UNIMAM",
-  "descricao_pagina": "Programa de Iniciação Científica da UNIMAM: objetivos, equipe, projetos e oportunidades.",
-  "cor_principal": "#0056b3",
-  "menu_superior": [
-    {
-      "texto": "Início",
-      "link": "#inicio"
-    },
-    {
-      "texto": "Editais",
-      "link": "#editais"
-    },
-    {
-      "texto": "Formulários",
-      "link": "#formularios"
-    },
-    {
-      "texto": "Processo Seletivo",
-      "link": "#processo-seletivo"
-    },
-    {
-      "texto": "Contato",
-      "link": "#contato"
-    }
-  ],
+  "noticias_vazio": "Nenhuma notícia publicada.",
+  "largura_menu": 280,
+  "aviso_demonstracao": "Modelo demonstrativo · Nomes, datas, notícias e projetos fictícios, para substituição.",
+  "logo_largura": 100,
+  "texto_etapa": "ETAPA",
+  "logo_imagem": "/assets/img/proinc-logo.png",
+  "whatsapp_link": "",
+  "cor_escura": "#082d66",
+  "texto_orientador": "Orientador(a)",
+  "cor_texto": "#24364b",
+  "rodape_titulo": "PROINC · UNIMAM",
   "redes_sociais": [
     {
       "nome": "Instagram",
@@ -43,52 +35,13 @@
       "url": ""
     }
   ],
-  "whatsapp_link": "",
-  "whatsapp_texto": "Fale conosco pelo WhatsApp",
-  "whatsapp_rotulo": "WhatsApp",
-  "mostrar_whatsapp": false,
-  "aviso_demonstracao": "Modelo demonstrativo · Nomes, datas, notícias e projetos fictícios, para substituição.",
-  "rodape_titulo": "PROINC · UNIMAM",
-  "rodape_texto": "Programa de Iniciação Científica",
-  "rodape_nota": "Modelo acadêmico demonstrativo\nConteúdo sujeito à revisão institucional.",
   "noticias_titulo": "Últimas Notícias e Projetos",
-  "noticias_legenda": "ACOMPANHE O PROGRAMA",
-  "noticias_vazio": "Nenhuma notícia publicada.",
-  "carrossel_intervalo": 7,
-  "carrossel_automatico": true,
-  "texto_pausar": "Pausar",
-  "texto_reproduzir": "Reproduzir",
-  "texto_lattes": "Currículo Lattes",
-  "texto_lattes_mini": "Lattes",
-  "texto_nao_informado": "Não informado",
-  "texto_lista_vazia": "Nenhum item cadastrado.",
-  "texto_sem_editais": "Nenhum edital publicado.",
-  "texto_professor": "PROFESSOR(A)",
   "texto_area": "ÁREA",
-  "texto_curriculo": "CURRÍCULO",
-  "texto_orientador": "Orientador(a)",
-  "texto_etapa": "ETAPA",
-  "texto_periodo": "PERÍODO",
-  "texto_inicio": "Início",
-  "texto_pular": "Pular para o conteúdo",
-  "texto_link_indisponivel": "Link ainda não cadastrado.",
-  "logo_imagem": "/assets/img/proinc-logo.png",
-  "logo_alt": "PROINC — Programa de Iniciação Científica",
-  "logo_largura": 100,
-  "logo_altura": 100,
-  "logo_secundaria_imagem": "/assets/img/unimam-logo.png",
-  "logo_secundaria_alt": "UNIMAM — Centro Universitário Maria Milza",
-  "logo_secundaria_largura": 172,
-  "logo_secundaria_altura": 58,
-  "cor_escura": "#082d66",
-  "cor_fundo": "#ffffff",
-  "cor_texto": "#24364b",
-  "fonte": "Arial",
+  "chamada_titulo": "Faça parte da pesquisa.",
+  "carrossel_automatico": true,
+  "chamada_link": "#processo-seletivo",
   "largura_site": 1240,
-  "largura_menu": 280,
-  "exibir_menu_lateral": true,
-  "altura_banner": 310,
-  "menu_admin": "Área administrativa",
+  "titulo_pagina": "PROINC | Iniciação Científica · UNIMAM",
   "secoes": [
     {
       "secao": "processo-seletivo",
@@ -135,12 +88,59 @@
       "visivel": true
     }
   ],
-  "titulo_conteudo": "Programa de Iniciação Científica",
-  "chamada_titulo": "Faça parte da pesquisa.",
-  "chamada_texto": "Conheça as oportunidades de iniciação científica e desenvolva seu projeto com acompanhamento de professores da UNIMAM.",
-  "chamada_botao": "CONHEÇA A SELEÇÃO",
-  "chamada_link": "#processo-seletivo",
-  "exibir_chamada": true,
+  "logo_secundaria_legenda": "INICIAÇÃO CIENTÍFICA",
   "exibir_acordeoes": true,
+  "texto_lista_vazia": "Nenhum item cadastrado.",
+  "whatsapp_rotulo": "WhatsApp",
+  "logo_altura": 100,
+  "menu_admin": "Área administrativa",
+  "texto_curriculo": "CURRÍCULO",
+  "altura_banner": 310,
+  "chamada_texto": "Conheça as oportunidades de iniciação científica e desenvolva seu projeto com acompanhamento de professores da UNIMAM.",
+  "texto_periodo": "PERÍODO",
+  "mostrar_whatsapp": false,
+  "menu_superior": [
+    {
+      "texto": "Início",
+      "link": "#inicio"
+    },
+    {
+      "texto": "Editais",
+      "link": "#editais"
+    },
+    {
+      "texto": "Formulários",
+      "link": "#formularios"
+    },
+    {
+      "texto": "Processo Seletivo",
+      "link": "#processo-seletivo"
+    },
+    {
+      "texto": "Contato",
+      "link": "#contato"
+    }
+  ],
+  "cor_fundo": "#ffffff",
+  "logo_secundaria_largura": 172,
+  "texto_professor": "PROFESSOR(A)",
+  "rodape_texto": "Programa de Iniciação Científica",
+  "titulo_conteudo": "Programa de Iniciação Científica",
+  "cor_principal": "#0056b3",
+  "logo_alt": "PROINC — Programa de Iniciação Científica",
+  "texto_reproduzir": "Reproduzir",
+  "whatsapp_texto": "Fale conosco pelo WhatsApp",
+  "texto_lattes_mini": "Lattes",
+  "fonte": "Arial",
+  "faixa_direita": "PORTAL DE INICIAÇÃO CIENTÍFICA",
+  "logo_secundaria": "UNIMAM",
+  "slogan_subtitulo": "Pesquisa que começa na graduação.",
+  "slogan_titulo": "Programa de Iniciação Científica",
+  "logo_secundaria_imagem": "/assets/img/unimam-logo.png",
+  "logo_principal": "PROINC",
+  "texto_pular": "Pular para o conteúdo",
+  "descricao_pagina": "Programa de Iniciação Científica da UNIMAM: objetivos, equipe, projetos e oportunidades.",
+  "texto_pausar": "Pausar",
+  "rodape_nota": "Modelo acadêmico demonstrativo\nConteúdo sujeito à revisão institucional.",
   "abrir_primeira_secao": false
 }
