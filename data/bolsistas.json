@@ -3,16 +3,24 @@
   "legenda": "",
   "lista": [
     {
-      "nome": "Ana Clara Ferreira",
+      "nome": "Íkaro Amorim Cezare Maia Santos ",
       "curso": "Psicologia"
     },
     {
-      "nome": "Lucas Pereira Lima",
+      "nome": "Luan Argolo Souza ",
       "curso": "Enfermagem"
     },
     {
-      "nome": "Júlia Mendes Rocha",
-      "curso": "Administração"
+      "nome": "Analice Cavalcante Silva",
+      "curso": "Biomedicina"
+    },
+    {
+      "nome": "Cássia Gonçalves Vieira",
+      "curso": "Enfermagem"
+    },
+    {
+      "nome": "Udson Cerqueira de Santana",
+      "curso": "Psicologia"
     }
   ]
 }
