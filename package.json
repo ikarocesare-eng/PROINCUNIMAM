@@ -1,0 +1,8 @@
+{
+  "name": "proinc-unimam",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests.mjs"
+  }
+}
