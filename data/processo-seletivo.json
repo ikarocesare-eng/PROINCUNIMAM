@@ -1,29 +1,26 @@
 {
-  "titulo": "Processo Seletivo",
+  "titulo": "PROCESSO SELETIVO DE PROJETO DE PESQUISA (DOCENTE)",
   "legenda": "",
-  "descricao": "Seleção de estudantes para as modalidades bolsista e voluntária. As datas abaixo são exemplos e não representam inscrições reais.",
+  "descricao": "EDITAL 03/2026 DE 01 DE OUTUBRO DE 2026\nPROGRAMA DE INICIAÇÃO CIENTÍFICA – PROINC\nPROCESSO SELETIVO DE PROJETO DE PESQUISA/DOCENTE",
   "cronograma": [
     {
-      "etapa": "Inscrições",
-      "periodo": "18/09 a 09/10/2026"
+      "etapa": "Período de submissão",
+      "periodo": "01/10 a 31/10/2026"
     },
     {
-      "etapa": "Análise das candidaturas",
-      "periodo": "13 a 16/10/2026"
+      "etapa": " Divulgação das inscrições homologadas",
+      "periodo": "03/11/2026"
     },
     {
-      "etapa": "Resultado preliminar",
-      "periodo": "19/10/2026"
-    },
-    {
-      "etapa": "Interposição de recursos",
-      "periodo": "20 e 21/10/2026"
-    },
-    {
-      "etapa": "Resultado final",
-      "periodo": "23/10/2026"
+      "etapa": " Divulgação dos Resultados",
+      "periodo": "17/11/2026"
     }
   ],
-  "editais": [],
+  "editais": [
+    {
+      "arquivo": "assets/editais/edital03-de-selecao-de-projetos-docente-proinc-2026.pdf",
+      "titulo": "EDITAL PROCESSO SELETIVO DE PROJETO DE PESQUISA (DOCENTE)"
+    }
+  ],
   "titulo_editais": "Editais e documentos"
 }
