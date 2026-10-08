@@ -9,7 +9,7 @@
   "exibir_chamada": true,
   "texto_nao_informado": "Não informado",
   "chamada_botao": "CONHEÇA A SELEÇÃO",
-  "logo_secundaria_altura": 160,
+  "logo_secundaria_altura": 100,
   "noticias_legenda": "ACOMPANHE O PROGRAMA",
   "faixa_esquerda": "UNIMAM · ENSINO, PESQUISA E EXTENSÃO",
   "noticias_vazio": "Nenhuma notícia publicada.",
@@ -122,7 +122,7 @@
     }
   ],
   "cor_fundo": "#ffffff",
-  "logo_secundaria_largura": 172,
+  "logo_secundaria_largura": 100,
   "texto_professor": "PROFESSOR(A)",
   "rodape_texto": "Programa de Iniciação Científica",
   "titulo_conteudo": "Programa de Iniciação Científica",
