@@ -1,14 +1,14 @@
 {
-  "title": "Boas perguntas.\nNovos caminhos.",
-  "description": "Conheça os projetos de exemplo e as áreas de pesquisa do programa.",
-  "button_text": "Explore os projetos",
+  "publicado": false,
+  "sobreposicao": 60,
   "button_link": "#projetos",
-  "etiqueta": "PESQUISA NA GRADUAÇÃO",
   "ordem": 2,
-  "publicado": true,
-  "imagem": "",
-  "imagem_alt": "",
   "modo": "texto",
+  "imagem": "",
+  "etiqueta": "PESQUISA NA GRADUAÇÃO",
   "posicao_imagem": "center",
-  "sobreposicao": 60
+  "title": "Boas perguntas.\nNovos caminhos.",
+  "button_text": "Explore os projetos",
+  "imagem_alt": "",
+  "description": "Conheça os projetos de exemplo e as áreas de pesquisa do programa."
 }
